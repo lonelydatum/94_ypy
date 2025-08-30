@@ -113,7 +113,7 @@ var safety = {
 
 var friends = {
   t1: 1,
-  t2: 1.8
+  t2: 3
 };
 
 exports.friends = friends;

@@ -31,7 +31,7 @@ const safety = {
 
 const friends = {
   t1: 1,
-  t2: 1.8,
+  t2: 3,
 };
 
 

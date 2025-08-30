@@ -24,7 +24,7 @@ function init(time = theme2) {
 
   tl.add("f3", `+=${time.t1}`);
   tl.to(".f2_txt", { duration: 0.3, opacity: 0 }, "f3");
-  tl.from(".f3a_txt", { duration: 0.3, opacity: 0 }, "f3");
+  tl.from(".f3a_txt", { duration: 0.3, opacity: 0 }, "f3+=.2");
   tl.from(".f3b_txt", { duration: 0.3, opacity: 0 }, "f3+=.6");
 
   tl.add("f4", `+=${time.t2}`);
