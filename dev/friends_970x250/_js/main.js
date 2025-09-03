@@ -2,7 +2,9 @@ import { friends } from "../../_common/js/reads.js";
 import { commonInit } from "../../_common/js/common.js";
 import { olg } from "../../_common/js/proline.js";
 
-const tl = new commonInit();
+
+
+const tl = new commonInit(75, 110);
 
 tl.add("f2", "+=.1");
 

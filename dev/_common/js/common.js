@@ -1,4 +1,8 @@
-function commonInit() {
+function commonInit(x=50, y=50) {
+  console.log(x, y);
+
+  
+
   const legal = {
     arcade: `©2025 Pragmatic Play. All rights reserved. 
 ©2025 Games Global. All rights reserved. 
@@ -43,6 +47,12 @@ Must be 19 years of age or older and a resident of Ontario, located in the provi
       }
     },
   });
+  
+  
+  tl.set(".f1_txt_1", { transformOrigin:`${x}% ${y}%`, scale:.5,  rotation:0,   x:`-${x/2}%`, y:`-${y/2}%` });
+  tl.set(".f1_txt_2", { transformOrigin:`${x}% ${y}%`, scale:.5,  rotation:0,   x:`-${x/2}%`, y:`-${y/2}%` });
+  tl.set(".f1_txt_3", { transformOrigin:`${x}% ${y}%`, scale:.5,  rotation:0,   x:`-${x/2}%`, y:`-${y/2}%` });
+
   tl.set(".f4_legal", { opacity: 0 });
   tl.set(".frame1", { opacity: 1 });
   tl.from(".f1_txt_1", { duration: 0.3, opacity: 0, rotation:-30 }, 0);

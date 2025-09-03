@@ -5,6 +5,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 function commonInit() {
+  var x = arguments.length <= 0 || arguments[0] === undefined ? 50 : arguments[0];
+  var y = arguments.length <= 1 || arguments[1] === undefined ? 50 : arguments[1];
+
+  console.log(x, y);
+
   var legal = {
     arcade: "©2025 Pragmatic Play. All rights reserved. \n©2025 Games Global. All rights reserved. \nMust be 19 years of age or older and a resident of Ontario, located in the province to play online casino games. Games may not appear as shown. Odds vary by game. Terms and conditions apply.\n",
     games: "©2025 IGT. </br>\n©2025 Pragmatic Play.\nAll rights reserved. ©2025 Evolution. \nAll rights reserved. Must be 19 years of age or older and a resident of Ontario, located in the province to play online casino games. Games may not appear as shown. Odds vary by game. Terms and conditions apply.\n",
@@ -26,6 +31,11 @@ function commonInit() {
       }
     }
   });
+
+  tl.set(".f1_txt_1", { transformOrigin: x + "% " + y + "%", scale: .5, rotation: 0, x: "-" + x / 2 + "%", y: "-" + y / 2 + "%" });
+  tl.set(".f1_txt_2", { transformOrigin: x + "% " + y + "%", scale: .5, rotation: 0, x: "-" + x / 2 + "%", y: "-" + y / 2 + "%" });
+  tl.set(".f1_txt_3", { transformOrigin: x + "% " + y + "%", scale: .5, rotation: 0, x: "-" + x / 2 + "%", y: "-" + y / 2 + "%" });
+
   tl.set(".f4_legal", { opacity: 0 });
   tl.set(".frame1", { opacity: 1 });
   tl.from(".f1_txt_1", { duration: 0.3, opacity: 0, rotation: -30 }, 0);
@@ -133,7 +143,7 @@ var _commonJsCommonJs = require("../../_common/js/common.js");
 
 var _commonJsProlineJs = require("../../_common/js/proline.js");
 
-var tl = new _commonJsCommonJs.commonInit();
+var tl = new _commonJsCommonJs.commonInit(75, 110);
 
 tl.add("f2", "+=.1");
 

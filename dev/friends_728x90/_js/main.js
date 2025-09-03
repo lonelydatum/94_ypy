@@ -4,7 +4,7 @@ import { friends } from "../../_common/js/reads.js";
 import { olg } from "../../_common/js/proline.js";
 
 function init() {
-  const tl = new commonInit();
+  const tl = new commonInit(75, 150);
 
   tl.add("f2", "+=.1");
 

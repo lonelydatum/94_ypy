@@ -3,7 +3,7 @@ import { commonInit } from "./common.js";
 import { olg } from "./proline.js";
 
 function init(obj) {
-  const tl = commonInit();
+  const tl = commonInit(50, 250);
 
   tl.add("f2", "+=.5");
   tl.to(".f1", { duration: 0.5, opacity: 0 }, "f2");

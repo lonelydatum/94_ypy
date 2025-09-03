@@ -15,7 +15,7 @@ function init(time = theme2) {
       "f2"
     );
   }
-  console.log(time);
+  
 
   tl.from(".f2_device", { duration: 0.5, opacity: 0 }, "f2+=.2");
 
