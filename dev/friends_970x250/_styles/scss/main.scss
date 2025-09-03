@@ -7,3 +7,8 @@
 	// right: 0px;
 	// left: initial;
 }
+
+.f1_txt_1, .f1_txt_2, .f1_txt_3, {
+	transform-origin: 75% 110%;
+	transform: rotate(0deg) scale(.5) translate(-75%, -110%);
+}

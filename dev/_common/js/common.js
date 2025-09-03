@@ -45,9 +45,9 @@ Must be 19 years of age or older and a resident of Ontario, located in the provi
   });
   tl.set(".f4_legal", { opacity: 0 });
   tl.set(".frame1", { opacity: 1 });
-  tl.from(".f1_txt_1", { duration: 0.4, opacity: 0, y: "-=100" });
-  tl.from(".f1_txt_2", { duration: 0.4, opacity: 0, y: "-=100" }, "-=.2");
-  tl.from(".f1_txt_3", { duration: 0.4, opacity: 0, y: "-=100" }, "-=.2");
+  tl.from(".f1_txt_1", { duration: 0.3, opacity: 0, rotation:-30 }, 0);
+  tl.from(".f1_txt_2", { duration: 0.3, opacity: 0, rotation:-30 }, .2);
+  tl.from(".f1_txt_3", { duration: 0.3, opacity: 0, rotation:-30 }, .4);
 
   return tl;
 }

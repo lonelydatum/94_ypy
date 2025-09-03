@@ -269,4 +269,13 @@ svg {
   position: absolute;
 }
 
+.f1_txt_1, .f1_txt_2, .f1_txt_3 {
+  -webkit-transform-origin: 75% 110%;
+  -ms-transform-origin: 75% 110%;
+  transform-origin: 75% 110%;
+  -webkit-transform: rotate(0deg) scale(0.5) translate(-75%, -110%);
+  -ms-transform: rotate(0deg) scale(0.5) translate(-75%, -110%);
+  transform: rotate(0deg) scale(0.5) translate(-75%, -110%);
+}
+
 /*# sourceMappingURL=main.css.map */
