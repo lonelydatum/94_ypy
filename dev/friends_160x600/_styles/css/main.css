@@ -244,9 +244,9 @@ svg {
 
 #svg_move,
 #svg_idle {
-  -webkit-transform: translate(-9px, 542px);
-  -ms-transform: translate(-9px, 542px);
-  transform: translate(-9px, 542px);
+  -webkit-transform: translate(-7px, 540px);
+  -ms-transform: translate(-7px, 540px);
+  transform: translate(-7px, 540px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -255,7 +255,7 @@ svg {
 }
 
 #olg_main {
-  width: 89px;
+  width: 90px;
 }
 
 /*# sourceMappingURL=main.css.map */

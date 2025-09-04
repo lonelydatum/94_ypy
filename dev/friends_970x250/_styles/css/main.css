@@ -244,9 +244,9 @@ svg {
 }
 
 #svg_move, #svg_idle {
-  -webkit-transform: translate(-13px, 162px);
-  -ms-transform: translate(-13px, 162px);
-  transform: translate(-13px, 162px);
+  -webkit-transform: translate(-14px, 146px);
+  -ms-transform: translate(-14px, 146px);
+  transform: translate(-14px, 146px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -255,7 +255,7 @@ svg {
 }
 
 #olg_main {
-  width: 136px;
+  width: 160px;
 }
 
 .hero {

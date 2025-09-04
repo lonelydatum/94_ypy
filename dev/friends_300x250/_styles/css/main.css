@@ -244,9 +244,9 @@ svg {
 
 #svg_move,
 #svg_idle {
-  -webkit-transform: translate(-10px, 201px);
-  -ms-transform: translate(-10px, 201px);
-  transform: translate(-10px, 201px);
+  -webkit-transform: translate(-9px, 200px);
+  -ms-transform: translate(-9px, 200px);
+  transform: translate(-9px, 200px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
