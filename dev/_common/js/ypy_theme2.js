@@ -39,6 +39,12 @@ function init(time = theme2) {
   tl.from(".f4_txt", { duration: 0.3, opacity: 0 });
   tl.from(".f4_cta", { duration: 0.3, opacity: 0 });
 
+  // tl.add('end')
+  
+  tl.to(".f1_txt_1", { duration: 0.3, opacity: 0 }, 'f4');
+  tl.to(".f1_txt_2", { duration: 0.3, opacity: 0 }, 'f4');
+  tl.to(".f1_txt_3", { duration: 0.3, opacity: 0 }, 'f4');
+
   tl.add(olg());
 
   return tl;
